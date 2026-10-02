@@ -1,6 +1,14 @@
 header{
     display:flex;
 }
+
+.lilla-amongus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 64px;
+    height: 64px;
+}
 img{
     border-color: white;
     box-shadow: 5px 5px 5px;
@@ -10,12 +18,20 @@ h1{
     padding: 15px;
 }
 nav{
-    text-align: center;
-    padding: 0px 850px;
-    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
 }
 
 body{
+    text-align: center;
+    padding-top: 150px;
     background-image: url('https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000036098/758ab0b61205081da2466386940752c70e0e5ea43bd39e8b9b13eaa455c69b7e');
     color: white
 }
